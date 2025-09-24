@@ -25,7 +25,7 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   devServer: {
-    contentBase: './dist',
+    static: './dist',
     port: 3000,
   }
 };
